@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Merriweather+Sans:wght@600&display=swap");
+
+* {
+  font-family: "Hind Siliguri", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: #ecffb8;
+  background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
+}
+#input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-field{
+  margin-top: 6vh;
+}
+#todolist-body {
+  width: 100%;
+  height: auto;
+  min-height: 40vh;
+  width: 40vw;
+  min-width: 40vw;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.46);
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 8vh;
+  background-color: #e55039;
+  background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+#title-text {
+  text-align: center;
+  font: 400;
+  font-size: 30px;
+  color: #1e272e;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+
+#add-button {
+  border-radius: 12px;
+  padding: 6px 7px;
+  font-size: 8px;
+  margin-left: 0.5vw;
+  color: aliceblue;
+  background-color: #1e272e;
+  border-color: rgba(0, 0, 0, 0.151);
+  transition: 0.1s;
+}
+#add-button:hover {
+  transition: 0.1s;
+  transform: scale(1.03);
+}
+
+#clear-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 15px;
+  margin-bottom: 4vh;
+  border-color: rgba(0, 0, 0, 0.11);
+  color: aliceblue;
+  background-color: #1e272e;
+  transition: 0.1s;
+  font-size: 18px;
+}
+#clear-button:hover {
+  background-color:  #ffd32a;
+  transition: 0.1s;
+  transform: scale(1.03);
+}
+
+#entry-item-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-wrap: break-word;
+  width: 20vw;
+  max-width: 20vw; 
+}
+#entry-item-style button {
+  margin-left: 0.5vw;
+  margin-right: 4vw;
+  border-radius: 20px;
+  background-color: #1e272e;
+  color: aliceblue;
+  border-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#entry-item-style:hover {
+  transition: 0.1s;
+  transform: scale(1.03);
+}
+
+input[type="text"] {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.089);
+  width: 20vw;
+  min-width: 20vw;
+  height: 5vh;
+  /* margin-top: 5vh; */
+}
